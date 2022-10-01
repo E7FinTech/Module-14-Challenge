@@ -145,3 +145,12 @@ To submit your Challenge assignment, click Submit, and then provide the URL of y
 You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next module.
 
 Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
+
+
+## Summary
+**What impact resulted from increasing or decreasing the training window?**
+Decreasing the long window to 50 created a tighter match between the 'Strategy' and 'Actual' returns, thus increasing the accuracy when using a Logistic Regression model
+
+**What impact resulted from increasing or decreasing either or both of the SMA windows?**
+By doubling the original short_window = 4, long_window = 100 to short_window = 8, long_window = 200, the strategy predictions deviate greater and the accuracy decreases if using
+a Logistic Regression model
